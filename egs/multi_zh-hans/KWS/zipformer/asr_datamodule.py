@@ -179,7 +179,7 @@ class WenetSpeechAsrDataModule:
         """
 
         manifest_dir = self.args.manifest_dir
-
+        print("manifest_dir:",manifest_dir)
         if not manifest_dir.exists():
             raise FileNotFoundError(
                 f"Manifest directory does not exist: {manifest_dir}"
