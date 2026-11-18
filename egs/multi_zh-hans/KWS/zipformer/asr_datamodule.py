@@ -186,7 +186,7 @@ class WenetSpeechAsrDataModule:
             )
 
         all_paths = sorted(
-            manifest_dir.glob("thchs_30_cuts*.jsonl.gz")
+            manifest_dir.glob("thchs_30_cuts*.jsonl")
         )
 
         if not all_paths:
